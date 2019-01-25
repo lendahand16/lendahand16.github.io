@@ -9,5 +9,5 @@ xhttp.onreadystatechange = function() {
         console.log(this.responseXML.getElementsByTagName("forecast-period")[24]);
     }
 }
-xhttp.open("GET", "IDO59001_2019_NSW_TP007.xml", true);
+xhttp.open("GET", "/data/IDO59001_2019_NSW_TP007.xml", true);
 xhttp.send();
